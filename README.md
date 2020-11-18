@@ -24,7 +24,7 @@ Here is how to build it:
 
 Check the options available in your app:
 ```bash
-java -jar target/bootique-tapestry-demo-1.0-SNAPSHOT.jar
+java -jar target/bootique-tapestry-demo-2.0.jar
 ```
 
 ```
@@ -44,7 +44,7 @@ OPTIONS
 
 Run the demo:
 ```bash
-java -jar target/bootique-tapestry-demo-1.0-SNAPSHOT.jar --config=config.yml --server
+java -jar target/bootique-tapestry-demo-2.0.jar --config=config.yml --server
 ```
 
 Open URL:

@@ -1,13 +1,13 @@
-import com.google.inject.Binder;
-import com.google.inject.Module;
+import io.bootique.BaseModule;
 import io.bootique.Bootique;
+import io.bootique.di.Binder;
 import io.bootique.tapestry.TapestryModule;
 import io.bootique.tapestry.demo.services.AppModule;
 import org.apache.tapestry5.SymbolConstants;
 import org.apache.tapestry5.services.LibraryMapping;
 import org.apache.tapestry5.webresources.modules.WebResourcesModule;
 
-public class Application implements Module {
+public class Application extends BaseModule {
 
     public static void main(String[] args) {
 
